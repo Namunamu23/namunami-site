@@ -21,7 +21,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        Hey, I'm Namu Nami
+        Hey, I'm Demetre
       </Motion.h1>
 
       <Motion.p
