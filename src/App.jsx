@@ -10,7 +10,7 @@ import {
 
 export default function Home() {
   return (
-    <Motion.main
+    <Motion.main role="main"
       className="min-h-screen bg-neutral-950 text-neutral-100 flex flex-col items-center justify-center px-4 sm:px-6 py-12 space-y-6"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -31,7 +31,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 1 }}
       >
-        Creative developer • Visual thinker • Detail lover
+        Frontend enthusiast • Debugger of chaos • Pixel perfectionist
       </Motion.p>
 
       <Motion.p
@@ -55,6 +55,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:text-sky-400 transition-transform transform hover:scale-110 duration-200 cursor-pointer"
           aria-label="LinkedIn profile"
+          title="LinkedIn"
         >
           <FaLinkedin />
         </a>
@@ -64,6 +65,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:text-pink-400 transition-transform transform hover:scale-110 duration-200 cursor-pointer"
           aria-label="Instagram profile"
+          title="Instagram"
         >
           <FaInstagram />
         </a>
@@ -73,6 +75,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:text-gray-400 transition-transform transform hover:scale-110 duration-200 cursor-pointer"
           aria-label="GitHub profile"
+          title="GitHub"
         >
           <FaGithub />
         </a>
@@ -82,6 +85,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:text-white transition-transform transform hover:scale-110 duration-200 cursor-pointer"
           aria-label="Twitter profile"
+          title="X"
         >
           <FaXTwitter />
         </a>
@@ -90,6 +94,7 @@ export default function Home() {
           className="hover:text-red-400 transition-transform transform hover:scale-110 duration-200 cursor-pointer"
           aria-label="Email Namu Nami"
           target="_blank" rel="noopener noreferrer"
+          title="Email"
         >
           <FaEnvelope />
         </a>
@@ -99,6 +104,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:text-green-500 transition-transform transform hover:scale-110 duration-200 cursor-pointer"
           aria-label="Spotify profile"
+          title="Spotify"
         >
           <FaSpotify />
         </a>
