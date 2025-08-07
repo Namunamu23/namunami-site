@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaXTwitter,
   FaEnvelope,
+  FaSpotify
 } from "react-icons/fa6";
 
 export default function Home() {
@@ -92,6 +93,16 @@ export default function Home() {
         >
           <FaEnvelope />
         </a>
+        <a
+          href="https://open.spotify.com/user/31hc6yprcgvwn32uybgrap6rwvqi"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-green-500 transition-transform transform hover:scale-110 duration-200 cursor-pointer"
+          aria-label="Spotify profile"
+        >
+          <FaSpotify />
+        </a>
+
       </Motion.div>
     </Motion.main>
   );
