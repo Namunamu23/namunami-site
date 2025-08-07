@@ -44,7 +44,7 @@ export default function Home() {
       </Motion.p>
 
       <Motion.div
-        className="grid grid-cols-2 sm:flex gap-6 text-2xl"
+        className="grid grid-cols-3 sm:flex gap-6 text-2xl"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.8 }}
